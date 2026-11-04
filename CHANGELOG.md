@@ -5,6 +5,25 @@
 
 # Change Log
 
+## [6.0.1](https://github.com/ruby-git/ruby-git/compare/v6.0.0...v6.0.1) (2026-11-04)
+
+
+### Other Changes
+
+* **adr:** Record where ruby-git expands a leading ~ ([5d2cb8e](https://github.com/ruby-git/ruby-git/commit/5d2cb8ec430149442c4fd8508f62bdf10cff480b)), closes [#1905](https://github.com/ruby-git/ruby-git/issues/1905)
+* **execution-context:** Use binary_path and git_ssh as given ([cd51c8c](https://github.com/ruby-git/ruby-git/commit/cd51c8cbdcb0b58aeef4be23e28688528cc0618e)), closes [#1905](https://github.com/ruby-git/ruby-git/issues/1905)
+* **export:** Skip the :revision example on git older than 2.49.0 ([9b68c20](https://github.com/ruby-git/ruby-git/commit/9b68c2091117ffefe669fdc1510bdadc4b68ad5e)), closes [#1952](https://github.com/ruby-git/ruby-git/issues/1952)
+* Lint the GitHub Actions workflows with actionlint ([6a9ede6](https://github.com/ruby-git/ruby-git/commit/6a9ede6312cc254b392d6cd4aff4d07164a38dc7))
+* Make workflow comments branch-neutral so a maintenance branch cut copies them unchanged ([9785e12](https://github.com/ruby-git/ruby-git/commit/9785e122b26897cec6d67ff96d1dfe828700118f))
+* **readme:** Announce the v6.0.0 release ([c89c061](https://github.com/ruby-git/ruby-git/commit/c89c061f99204e6b3675f0886d8726367c07c85d))
+* Record that ~ is expanded only in paths a repository is bound to ([10323d1](https://github.com/ruby-git/ruby-git/commit/10323d1e5e3d6591180658381652968992b8209c)), closes [#1907](https://github.com/ruby-git/ruby-git/issues/1907)
+* **release:** Require the main ref before running release-please on workflow_dispatch ([9ad2e71](https://github.com/ruby-git/ruby-git/commit/9ad2e7196dfdb0ee1e0a0401404cc7b61d7dfa87)), closes [#1932](https://github.com/ruby-git/ruby-git/issues/1932)
+* Retire the 4.x maintenance branch ([488e3a4](https://github.com/ruby-git/ruby-git/commit/488e3a459e566eb5f05110ff31d66d9fe85cc975))
+* Run RuboCop and each YARD task as a separate step ([0a17d09](https://github.com/ruby-git/ruby-git/commit/0a17d092c98a4f010954ebc2602bec49ac6194d9))
+* Run the JRuby and TruffleRuby jobs on ubuntu-24.04 ([b51b2f1](https://github.com/ruby-git/ruby-git/commit/b51b2f134b84781e6f08c7e4d8bc71a2bebe6043))
+* **skills:** Replace the workflow file list in the maintenance branch cut checklist with a grep ([2ac4866](https://github.com/ruby-git/ruby-git/commit/2ac4866020cb161cc7a2e60cfeb85d5657fc3544)), closes [#1935](https://github.com/ruby-git/ruby-git/issues/1935)
+* **worktree:** Stub the list command instead of the subject in worktree_add specs ([3adc8b0](https://github.com/ruby-git/ruby-git/commit/3adc8b0017c2c8172e56d7272e942c8762df3115))
+
 ## [6.0.0](https://github.com/ruby-git/ruby-git/compare/v5.4.1...v6.0.0) (2026-10-28)
 
 
